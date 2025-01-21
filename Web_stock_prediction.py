@@ -7,7 +7,7 @@ from keras.models import load_model
 
 st.title("Stock Price Predictor App")
 
-stock = st.text_input("Enter the Stock ID","APL")
+stock = st.text_input("Enter the Stock ID","GOOG")
 
 from datetime import datetime
 end = datetime.now()
